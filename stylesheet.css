@@ -1,4 +1,7 @@
-﻿body	{
+﻿@CHARSET "UTF-8";
+
+
+body	{
 	background-color: #664d4c;
 	font-family: century, serif;
 	color: #664d4c;
@@ -31,30 +34,9 @@ em{
 img{
 	margin-right: 20px;
 }
-	
-/*	
 
 #Farbe1{
-	color:#445c7a;
-	background-color: #d7dbe0;	
-	border-color: #aed1c4;
-	}
-	
-#Farbe2{
-	color:#aed1c4;
-	background-color: #445c7a;	
-	border-color: #7ea6ba;
-	}
 
-#Farbe3{
-	color: #445c7a;
-	background-color: #e8e8dc;	
-	border-color: #445c7a;
-	
-	*/
-
-#Farbe1{
-/*	color: #a85141; */
 	background-color: #faea99;	
 	border-color: #f5a018;
 	}
@@ -66,11 +48,10 @@ img{
 	}
 
 #Farbe3{
-	/* color: #053b75; */
+
 	background-color: #f2f2ed;	
 	border-color: #c74d1c;
 }
-
 
 .oben {
 
@@ -81,6 +62,8 @@ img{
 	
 	margin-top:5px;
 	padding-left: 5px;
+	background-color: #faea99;	
+	border-color: #f5a018;
 }
 	
 #links { 
@@ -88,9 +71,6 @@ img{
 	width: 35%;
 }
 
-
-
-/*---------------------Tabelle-------*/
 
 thead{
 	text-align: left;
@@ -100,5 +80,5 @@ td{
 	padding: 5px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #aed1c4;
+	border-bottom-color: #e86f71;
 }
